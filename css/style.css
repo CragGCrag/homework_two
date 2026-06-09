@@ -1,0 +1,84 @@
+/* Правило для body: зміна шрифту та розміру тексту */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* Skip to Main Content Link (приховано, поки не отримає фокус для доступності) */
+.skip-link {
+  position: absolute;
+  top: -1000px;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Правило для header: зміна кольору фону */
+header {
+  background-color: #e6f2ff; /* Світло-блакитний */
+}
+
+/* Правило для nav: зміна кольору фону, відображення та ширина */
+nav {
+  background-color: #b3d9ff;
+  display: inline-block;
+  width: 80%;
+}
+
+/* Селектор нащадка для зображення всередині nav */
+nav img {
+  width: 10%;
+}
+
+/* Правило для main: зміна кольору фону та розміру тексту */
+main {
+  background-color: #ffffff;
+  font-size: 18px;
+}
+
+/* Правило для footer: зміна кольору фону */
+footer {
+  background-color: #f2f2f2; /* Світло-сірий */
+  padding: 10px;
+}
+
+/* ЗАКРРЕСЛЕНО/ЗАКМЕНТОВАНО для поточного завдання */
+/*
+li {
+  display: inline-block;
+  width: 150px;
+}
+*/
+
+/* Правило для h1: вирівнювання тексту, зміна шрифту та кольору */
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: #2c3e50; /* Темно-синій/сірий */
+}
+
+/* Правило для p: зміна міжрядкового інтервалу */
+p {
+  line-height: 1.6;
+}
+
+/* Клас Grid для галереї */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+
+/* Селектор нащадка для зображень всередині класу grid */
+.grid img {
+  width: 100%;
+}
+
+/* Клас Flex для галереї */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
